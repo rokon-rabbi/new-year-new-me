@@ -79,10 +79,58 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+.failer-section{
+    display: flex;
+}
+.failer{
+    display: flex;
+    flex-direction: column;
+   gap: 10px;
+   margin-top: 250px;
+   width: 416px;
+   height: 400px;
+
+ 
+}
+.failer-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+   
+}
+.failer-description{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.failer-list{
+    width: 349px;
+    height: 162px;
+    left: 848px;
+    top: 1415px;
+}
 ul {
     list-style: none;
   }
 ul li:before {
     content: '✓';
+    color:rgb(91, 91, 255);
   }
 
+  .plans-container{
+    display: flex;
+    gap: 24px;
+}
+.plan{
+ 
+    padding: 30px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.plan-description{
+    color: #757575;
+}
