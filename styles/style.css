@@ -1,4 +1,88 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'work Sans', sans-serif;
 }
+.text-primary{
+    color: #FFFFFF;
+}
+.btn-primary{
+    color: rgb(54, 54, 255);
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    margin-top: 24px;
+
+}
+.header-section{
+    width: 1600px;
+    height: 808px;
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+  
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-title {
+    display: flex;
+    font-weight: 800;
+    font-size: 45px;
+   
+   
+}
+.header-section{
+    position: relative;
+}
+.banner{
+    font-style: normal;
+    position: absolute;
+    left: 845px;
+    top: 216px;
+  margin-right: 230px;
+    text-align: right;
+    width: 525px;
+}
+.banner-title{
+   margin-top: 24px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;    
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+a{
+    text-decoration: none;
+}
+/* main section css is here */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+  }
+ul li:before {
+    content: '✓';
+  }
+
